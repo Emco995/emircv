@@ -1,0 +1,165 @@
+body {
+     font-family: 'Nunito', sans-serif;
+}
+
+.container {
+    width: 95%;
+    margin-top: 20px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+.header {
+   border-radius: 5px;
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   height: 220px; 
+   /* background-image: url('cv photos/background.avif'); */
+   background: #000000;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(to top, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to top, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.logo-name {
+    display: flex;
+    
+}
+
+.logo {
+    width: 220px;
+    height: 220px;
+    padding-top: 0px;
+    padding-left: 20px;
+}
+
+.profession {
+    font-size: 1.8rem;
+    padding-top: 45px;
+    color: white;
+}
+
+.informations {
+   color: white;
+   padding-top: 5px;
+   padding-bottom: 5px;
+}
+
+.informations p {
+   /* padding-top: 2px; */
+   padding-right: 20px;
+   line-height: 20px;
+}
+
+.informations p a {
+    color: white;
+    text-decoration: none;
+}
+
+.informations span{
+    text-decoration: underline;
+}
+
+.about {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-bottom: 2px solid #5f5f5f;
+}
+
+.about h3{
+    font-size: 1.8rem;
+    margin-bottom: 2px;
+}
+
+.about p {
+   color: #5f5f5f;
+   padding-bottom: 10px;
+}
+
+.experience {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-bottom: 2px solid #5f5f5f;
+}
+
+.experience h3 {
+    font-size: 1.8rem;
+    margin-bottom: 2px;
+}
+
+.projects {
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.tier1, .tier2 {
+    width: 45%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+.project-name {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+.project-link {
+    color: gray;
+    text-decoration: none;
+}
+
+.project-description {
+    margin-top: 0;
+    color: #5f5f5f;
+}
+
+.skills {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-bottom: 2px solid #5f5f5f;
+}
+
+.skills h3 {
+    font-size: 1.8rem;
+    margin-bottom: 2px;
+}
+
+.skill-container {
+    display: flex;
+    justify-content: space-evenly;
+    color: #5f5f5f;
+    padding-bottom: 10px;
+}
+
+.skill p b {
+    color: black;
+}
+
+.references {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.references h3 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.reference {
+    float: right;
+    color: #5f5f5f;
+}
+
+.reference p {
+    font-size: 1.8rem;
+} 
+
+
+.ref-link {
+    font-size: 1.5rem;
+    color: #5f5f5f;
+}
